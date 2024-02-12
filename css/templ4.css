@@ -581,6 +581,14 @@ a {
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
   z-index: 100;
   background-color: white;
+  transition: var(--transition-duration);
+  -webkit-transition: var(--transition-duration);
+  -moz-transition: var(--transition-duration);
+  -ms-transition: var(--transition-duration);
+  -o-transition: var(--transition-duration);
+}
+.news .boxes .box:hover {
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%)
 }
 .news .boxes .active {
   background-color: var(--main-color-alt);
