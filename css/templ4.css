@@ -337,6 +337,15 @@ a {
 .services .container .box {
   padding: 35px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  transition: var(--transition-duration);
+  -webkit-transition: var(--transition-duration);
+  -moz-transition: var(--transition-duration);
+  -ms-transition: var(--transition-duration);
+  -o-transition: var(--transition-duration);
+}
+
+.services .container .box:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
 }
 
 .services .container .box img {
